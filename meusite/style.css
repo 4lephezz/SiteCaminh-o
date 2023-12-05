@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: #202020ec;
+    color: aliceblue;
+    background-image: url(https://www.esan.edu.pe/images/blog/2020/07/20/1500x844-imagen2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    ;
+}
+
+h1 {
+    color: #ffffffec;
+    background-color: #202020;
+    padding: 12px 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 518px;
+    border-radius: 17px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border: 5px solid #131010ec;
+    text-shadow: 3px 3px #000000ec;
+    box-shadow: -3px 3px white;
+    opacity: 94%;
+}
+
+
+
+input {
+    border-radius: 7px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 7px;
+    border: 4px solid #202020;
+}
+
+button {
+    border-radius: 7px;
+    padding: 20px 195px;
+    cursor: pointer;
+    margin: 7px;
+    border: 4px solid #202020;
+    background-color: rgb(255, 255, 255);
+    transition: 1s ;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0px;
+    transition: 50ms;
+}
+
+.botaogrande  {
+
+    margin: 20px;
+    background-color: rgb(31, 34, 34);
+    color: white;
+    box-shadow: -3px 3px white;
+    padding: 20px;
+
+}
+ 
+div {
+
+    box-shadow: -7px 7px black;
+    text-shadow: 3px 3px #000000ec;
+    background-color: #202020;
+    width: 500px;
+    margin: 0 auto;
+    padding: 36px;
+    border-radius: 17px;
+    opacity: 94%;
+}
+
+
+
+button:hover {
+    background-color: #202020;
+    color: white;
+    font-size: 15px;
+}
+
+input :focus {
+    background-color: #202020;
+
+}
+
+ul :hover {
+    font-size: 17px;
+
+}
+
+li {
+    transition: 500ms ease;
+
+}
+
+
+
+.imgcc {
+    width: 400px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: -4px 4px rgb(0, 0, 0);
+}
